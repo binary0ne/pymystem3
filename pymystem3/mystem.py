@@ -45,7 +45,7 @@ _TARBALL_URLS = {
     },
 }
 
-_NL = unicode('\n').encode('utf-8')
+_NL = '\n'.encode('utf-8')
 _POSIX = os.name == 'posix'
 
 
