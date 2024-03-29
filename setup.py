@@ -256,7 +256,6 @@ setup_dict = dict(
     ],
     cmdclass={'test': TestAllCommand},
     zip_safe=False,  # don't use eggs
-    use_2to3=True,
 )
 
 
