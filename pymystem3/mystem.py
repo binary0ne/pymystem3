@@ -351,7 +351,7 @@ class Mystem(object):
 
     if _PIPELINE_MODE:
         def _analyze_impl(self, text):
-            if isinstance(text, unicode):
+            if isinstance(text, str):
                 text = text.encode('utf-8')
 
             if self._proc is None:
@@ -382,7 +382,7 @@ class Mystem(object):
             return obj
     else:
         def _analyze_impl(self, text):
-            if isinstance(text, unicode):
+            if isinstance(text, str):
                 text = text.encode('utf-8')
 
             if self._proc is None:
