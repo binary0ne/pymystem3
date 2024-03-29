@@ -5,7 +5,9 @@ A Python wrapper of the Yandex Mystem 3.1 morphological analyzer.
 
 from __future__ import print_function
 
-from itertools import ifilter, imap
+ifilter = filter
+imap = map
+
 import os
 import platform
 import select
